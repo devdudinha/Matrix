@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Matrix - Semana do Zero ao Programador Contratado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <h1>Matrix</h1>
+    </header>
+    <main class="personagens-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./src/imagens/seta.png" alt="seta para voltar a imagem" />
+      </button>
+
+      <ul class="lista-personagens">
+        <li class="cartao selecionado fundo-1">
+          <h2 class="nome">Neo</h2>
+
+          <img
+            class="imagem-personagem"
+            src="src/imagens/neo.jpg"
+            alt="Neo"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              O protagonista principal, é um hacker que descobre a verdadeira natureza da realidade e se torna o escolhido destinado a libertar a humanidade da Matrix.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-2">
+          <h2 class="nome">Trinity</h2>
+
+          <img
+            class="imagem-personagem"
+            src="src/imagens/trinity.jpg"
+            alt="Trinity"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+               Trinity é uma membro da tripulação da nave Nabucodonosor e se torna uma aliada crucial de Neo.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-3">
+          <h2 class="nome">Morpheus</h2>
+
+          <img
+            class="imagem-personagem"
+            src="src/imagens/morpheus.jpg"
+            alt="Morpheus"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Morpheus é o líder da resistência humana contra as máquinas e é responsável por encontrar e recrutar Neo para a causa.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-4">
+          <h2 class="nome">Agente Smith</h2>
+
+          <img
+            class="imagem-personagem"
+            src="src/imagens/agentejpg.jpg"
+            alt="Agente Smith"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+             O Agente Smith é um programa da Matrix encarregado de eliminar qualquer ameaça à estabilidade do sistema, incluindo Neo e os outros rebeldes humanos.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="./src/imagens/seta.png" alt="seta para avançar a imagem" />
+      </button>
+    </main>
+
+  <script src="./src/js/index.js"></script>
+
+  </body>
+</html>
